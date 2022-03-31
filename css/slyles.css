@@ -88,7 +88,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
-.button {
+.hero-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -180,6 +180,21 @@ body {
 
 /* Стили для portfolio.html */
 
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62
+  text-align: center;
+  letter-spacing: 0.48px;
+  cursor: pointer;
+  background-color: var(--team-bg-color);
+  color:var(--title-text-color)
+}
+.button:hover,
+.button:focus {
+  background-color:var(--accent-color) ;
+  color:var(--primary-white-color) ;
+}
 .projects .title {
   font-weight: 700;
   font-size: 18px;
