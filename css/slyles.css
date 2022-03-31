@@ -89,6 +89,7 @@ body {
   color: var(--primary-white-color);
 }
 .hero-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -121,7 +122,8 @@ body {
 }
 
 /* Product */
-.product-title {
+.product-title,
+.team-title  {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -133,14 +135,6 @@ body {
 /* Team */
 .team-section {
   background-color: var(--team-bg-color);
-}
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 1.08px;
-  color: var(--title-text-color);
 }
 .team .name {
   font-weight: 500;
@@ -165,22 +159,23 @@ body {
   color: var(--primary-white-color);
 }
 .footer-contacts .adds {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.42px;
-  font-style: normal;
   text-decoration: none;
   color: var(--primary-white-color);
 }
 .footer-contacts .footer-contacts-link {
-  color: rgba(100%, 100%, 100%, 60%);
   font-style: normal;
+  color: rgba(100%, 100%, 100%, 60%);
   text-decoration: none;
 }
 
 /* Стили для portfolio.html */
 
 .button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62
