@@ -1,1 +1,194 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
+  --accent-bg-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+}
 
+body {
+  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+
+/* Основной цвет текста:#757575 серый */
+/* Цвет заголовков (доп. цвет текста): #212121 около черный */
+/* Заголовок Героя и контраст: #FFFFFF белый */
+/* Акцент:  #2196F3 синенький */
+/* Внимание! Footer mail & tel: rgba(255, 255, 255, 0.6) */
+
+/* Page-header */
+.page-header {
+  background-color: var(--primary-white-color);
+}
+/* Logo */
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+.page-header .logo span {
+  color: #000000;
+}
+
+/* Site nav */
+.site-nav .site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+.site-nav .site-nav-link:hover,
+.site-nav .site-nav-link:focus {
+  color: var(--accent-color);
+}
+.site-nav .site-nav-link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+.contacts .contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus,
+.footer-contacts .footer-contacts-link:hover,
+.footer-contacts .footer-contacts-link:focus {
+  color: var(--accent-color);
+}
+/* Стили для index.html */
+/* Hero */
+.hero {
+  background-color: var(--accent-bg-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Features */
+/* Заголовок будем скрывать */
+.features-title {
+  color: var(--title-text-color);
+}
+.features .caption {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.features .desc {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+/* Product */
+.product-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 1.08px;
+  color: var(--title-text-color);
+}
+
+/* Team */
+.team-section {
+  background-color: var(--team-bg-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 1.08px;
+  color: var(--title-text-color);
+}
+.team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.48px;
+  color: var(--title-text-color);
+}
+.team .text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.48px;
+}
+
+/* Footer */
+.page-footer {
+  background-color: var(--accent-bg-color);
+}
+.page-footer .logo span {
+  color: var(--primary-white-color);
+}
+.footer-contacts .adds {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--primary-white-color);
+}
+.footer-contacts .footer-contacts-link {
+  color: rgba(100%, 100%, 100%, 60%);
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* Стили для portfolio.html */
+
+.projects .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 1.08px;
+  color: var(--title-text-color);
+}
+.projects .text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.48px;
+}
