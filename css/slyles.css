@@ -9,8 +9,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
-  background-color: var(--primary-bg-color);
+  font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
 }
 .list {
@@ -102,6 +101,11 @@ body {
   color: var(--primary-white-color);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188CE8;
+}
+
 /* Features */
 /* Заголовок будем скрывать */
 .features-title {
@@ -168,11 +172,17 @@ body {
 }
 .footer-contacts .footer-contacts-link {
   font-style: normal;
-  color: rgba(100%, 100%, 100%, 60%);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
   text-decoration: none;
+  color: rgba(100%, 100%, 100%, 60%);00000000
 }
 
 /* Стили для portfolio.html */
+.projects-card {
+  text-decoration: none;
+}
 
 .button {
   font-family: inherit;
@@ -201,4 +211,11 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.48px;
+  color: var(--primary-text-color);
 }
+
+/* для все img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
